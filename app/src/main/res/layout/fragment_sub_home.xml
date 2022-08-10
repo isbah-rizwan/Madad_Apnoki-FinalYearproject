@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ChiefHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="77dp">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discover"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:layout_marginTop="20sp"
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="10dp" />
+
+            <!--   <de.hdodenhof.circleimageview.CircleImageView
+                   android:id="@+id/profilehome"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginEnd="16dp"
+                   android:layout_marginRight="16dp"
+                   android:padding="4dp"
+                   android:src="@drawable/profile"
+                   app:civ_border_color="@color/yellow"
+                   app:civ_border_width="2dp" />
+
+               <View
+                   android:id="@+id/divider"
+                   android:layout_width="match_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginTop="10dp"
+                   android:background="#7E7777"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="@id/welcome" />
+   -->
+<!--
+
+            <LinearLayout
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/et_bg_grey"
+                android:id="@+id/search"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.SearchView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </androidx.appcompat.widget.SearchView>
+
+                <EditText
+                    android:hint="Search here ..."
+                    android:id="@+id/searchtext"
+                    android:background="@color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/adashboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

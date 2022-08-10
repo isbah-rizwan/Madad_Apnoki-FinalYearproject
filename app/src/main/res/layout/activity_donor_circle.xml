@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorCircle">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#FFE55C"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sprofile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="#FFE55C"
+            app:civ_border_width="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="558dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/relative"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/dc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Full Name" />
+
+        <EditText
+            android:id="@+id/dc_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Contact" />
+
+        <EditText
+            android:id="@+id/dc_cnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter CNIC" />
+
+        <EditText
+            android:id="@+id/dc_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Email" />
+
+        <EditText
+            android:id="@+id/dc_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Account details" />
+
+        <EditText
+            android:id="@+id/dc_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:hint="Enter Password" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="263dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="@color/pink"
+            android:text="Register"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

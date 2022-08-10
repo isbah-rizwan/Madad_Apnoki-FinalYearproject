@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_chief_header.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_chief_need_category.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_chief_wall.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_chieflogin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_choose_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_donor_circle.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_needy_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_needy_upload_proof.xml" value="0.22" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_needy_wall.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_needylogin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_register_chiefdonor.xml" value="0.21" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_sub_header.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_sub_need_category.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_sub_wall.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/activity_sublogin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/donordashboard.xml" value="0.33" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_chief_post.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_needy_post.xml" value="0.22" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_payment.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_recharge_wallet.xml" value="0.22" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_sub_post.xml" value="0.21" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/layout/fragment_transactions.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/drawer_menu_chief.xml" value="0.33" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/drawer_menu_needy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/drawer_menu_sub.xml" value="0.25" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/perfect/AndroidStudioProjects/Testing/FinalYearProject/app/src/main/res/menu/radiobutton_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

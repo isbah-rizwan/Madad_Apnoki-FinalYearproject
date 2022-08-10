@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseUser"
+    android:background="#bcebd0">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#bcebd0"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:text="Please Select a user:"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/chiefbutton"
+        android:layout_width="142dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/text"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/chiefdonor" />
+
+    <TextView
+        android:id="@+id/chieftext"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chiefbutton"
+        android:layout_alignStart="@+id/chiefbutton"
+        android:layout_alignLeft="@+id/chiefbutton"
+        android:layout_alignEnd="@+id/chiefbutton"
+        android:layout_alignRight="@+id/chiefbutton"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Chief Donor"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/subbutton"
+        android:layout_width="140dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/text"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/subdonor" />
+
+    <TextView
+        android:id="@+id/subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subbutton"
+        android:layout_alignStart="@+id/subbutton"
+        android:layout_alignLeft="@+id/subbutton"
+        android:layout_alignEnd="@+id/subbutton"
+        android:layout_alignRight="@+id/subbutton"
+        android:layout_marginStart="4dp"
+        android:gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Sub Donor"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/needybutton"
+        android:layout_width="140dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/text"
+        android:layout_alignStart="@+id/chiefbutton"
+        android:layout_alignLeft="@+id/chiefbutton"
+        android:layout_alignEnd="@+id/subbutton"
+        android:layout_alignRight="@+id/subbutton"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/userneedy" />
+
+    <TextView
+        android:id="@+id/needytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/needybutton"
+        android:layout_alignStart="@+id/needybutton"
+        android:layout_alignLeft="@+id/needybutton"
+        android:layout_alignEnd="@+id/needybutton"
+        android:layout_alignRight="@+id/needybutton"
+        android:layout_marginStart="4dp"
+        android:gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Needy"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

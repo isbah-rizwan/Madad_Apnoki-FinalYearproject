@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="rectangle">
+
+
+            <solid android:color="@color/colorPrimary" />
+        </shape>
+
+    </item>
+    <item android:left="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</layer-list>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+
+    &lt;!&ndash; You can use gradient with below attributes&ndash;&gt;
+    <gradient
+
+        android:centerColor="#FFFFFF"
+        android:endColor="#FFFFFF"
+        android:startColor="#FFFFFF"
+        android:type="linear"
+        />
+    <corners android:radius="10sp" />
+
+
+    &lt;!&ndash; You can omit below tag if you don't need stroke &ndash;&gt;
+    <stroke android:color="  #4CA23A" android:width="4sp" />
+
+    &lt;!&ndash; &lt;!&ndash; Set the same value for both width and height to get a circular shape &ndash;&gt;
+    <size android:width="400sp" android:height="160sp"/>
+    &ndash;&gt;
+    &lt;!&ndash;if you need only a single color filled shape&ndash;&gt;
+
+
+</shape>-->

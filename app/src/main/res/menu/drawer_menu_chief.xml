@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/home"
+                    android:title="Home"
+                    android:icon="@drawable/ic_home"/>
+
+                <item
+                    android:id="@+id/update"
+                    android:title="Update Profile"
+                    android:icon="@drawable/ic_profile"/>
+
+                <item
+                    android:id="@+id/delete"
+                    android:title="Delete"
+                    android:icon="@drawable/ic_delete"/>
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </menu>
+        </item>
+    </group>
+
+    <!--    <group android:checkableBehavior="single">-->
+    <!--        <item android:title="Category">-->
+    <!--            <menu>-->
+    <!--                <item-->
+    <!--                    android:id="@+id/showC"-->
+    <!--                    android:title="Show Category"-->
+    <!--                    android:icon="@drawable/ic_category"/>-->
+    <!--            </menu>-->
+    <!--        </item>-->
+    <!--    </group>-->
+
+    <group android:checkableBehavior="single">
+        <item android:title="Donor Circle">
+            <menu>
+                <item
+                    android:id="@+id/adddonor"
+                    android:title="Donor Circle"
+                    android:icon="@drawable/ic_donor"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Wallet">
+            <menu>
+                <item
+                    android:id="@+id/recharge"
+                    android:title="Recharge Wallet"
+                    android:icon="@drawable/wallet"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Reporting">
+            <menu>
+                <item
+                    android:id="@+id/transactions"
+                    android:title="My Transactions"
+                    android:icon="@drawable/pay"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

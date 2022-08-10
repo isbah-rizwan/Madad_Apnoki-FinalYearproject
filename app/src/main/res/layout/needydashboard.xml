@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="@+id/profile_image" />-->
+
+    <TextView
+        android:id="@+id/needy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_image"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/categorytag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/needy_name"
+        app:layout_constraintTop_toBottomOf="@+id/needy_name" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:text="Category input"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/needy_name"
+        app:layout_constraintStart_toStartOf="@+id/needy_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/amounttag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/categorytag"
+        app:layout_constraintTop_toBottomOf="@+id/categorytag" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:text="Amount input"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/needy_name"
+        app:layout_constraintStart_toStartOf="@+id/needy_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/datetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Date"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/categorytag"
+        app:layout_constraintTop_toBottomOf="@+id/categorytag" />
+
+    <TextView
+        android:id="@+id/startdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:text="Start date"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/amounttag"
+        app:layout_constraintTop_toBottomOf="@+id/amounttag" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/startdate"
+        app:layout_constraintStart_toStartOf="@+id/startdate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/enddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:text="End date"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/startdate"
+        app:layout_constraintStart_toStartOf="@+id/startdate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:srcCompat="@drawable/ic_more"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/postImg"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="112dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true" />
+
+    <TextView
+        android:id="@+id/verified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="Verified"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postImg" />
+
+    <TextView
+        android:id="@+id/notverified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="Not Verified"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postImg" />
+
+    <TextView
+        android:id="@+id/postdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Hello pls help me"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/postImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/postImg"
+        app:layout_constraintTop_toBottomOf="@+id/startdate"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginLeft="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

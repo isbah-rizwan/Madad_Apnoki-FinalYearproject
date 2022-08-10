@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#FBFBFB"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/profilelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/picturetv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="2dp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/morebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_more" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Title of Post"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E1DCDC" />
+
+        <TextView
+            android:id="@+id/postdescrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Description"
+            android:layout_marginStart="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp" />
+
+        <TableLayout
+            android:id="@+id/needyextrafields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_shape"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp">
+
+            <TableRow android:background="@drawable/box_shape">
+
+                <TextView
+                    android:id="@+id/desAmount"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:text="Amount"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/box_shape"
+                    android:gravity="center"
+                    android:text="Amount"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow android:background="@drawable/box_shape">
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:text="Category"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/box_shape"
+                    android:gravity="center"
+                    android:text="Category"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow android:background="@drawable/box_shape">
+
+                <TextView
+                    android:id="@+id/desdate"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:text="Installment 1"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/startdate"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/box_shape"
+                    android:gravity="center"
+                    android:text="Date"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow android:background="@drawable/box_shape">
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:text="Installment 2"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/enddate"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/box_shape"
+                    android:gravity="center"
+                    android:text="Date"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/postImg"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/pimagetv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F5F0F0" />
+
+        <Button
+            android:id="@+id/paynow"
+            android:layout_width="138dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:backgroundTint="@color/pink"
+            android:background="@drawable/button_bg"
+            android:drawableLeft="@drawable/ic_pay"
+            android:padding="5dp"
+            android:text="Pay Now!" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

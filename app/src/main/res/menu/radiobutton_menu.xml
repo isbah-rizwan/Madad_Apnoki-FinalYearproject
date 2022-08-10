@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/filter"
+        android:orderInCategory="2"
+        android:iconTint="@color/white"
+        android:title="Filter"
+        app:showAsAction="always">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/byname"
+                    android:title="Name"
+                    android:checked="true"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/bycategory"
+                    android:title="Category"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/byamount"
+                    android:title="Amount"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
